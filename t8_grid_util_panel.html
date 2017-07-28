@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+        
+<link rel="stylesheet" href="css/desktop-dark-select.css"/>
+<link rel="stylesheet" href="css/topcoat-desktop-dark.css"/>
+<link  id="hostStyle" rel="stylesheet" href="css/styles.css"/>
+
+<title></title>
+    </head>
+
+<body class="hostElt hostFontSize">
+    <div id="main" >
+        <div class="sub-section">  
+            <div>
+                <table class='span-table' id='grid-settings'>
+                    <tr>
+                        <td class='center' colspan="2">
+                            <button id="show_grid" class="topcoat-button--cta  hostFontSize">Toggle Grid</button>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td class='right'>                                
+                            <label class="topcoat-radio-button">
+
+                                <input id='grid-pixels' type="radio" name="topcoat">
+                                <div class="topcoat-radio-button__checkmark"></div>
+                                Pixels
+                            </label>
+                        </td>
+                        <td class='left'>
+                            <label class="topcoat-radio-button">
+                                
+                                <input id='grid-percent' type="radio" name="topcoat">
+                                <div class="topcoat-radio-button__checkmark"></div>
+                                Percent
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='left'>
+                            Grid Spacing
+                        </td>
+                        <td class='center'>
+                            <input id='grid-size-input' type="text" class="topcoat-text-input" placeholder="128" value="">
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 
+                            <input id='grid-size-range' type="range" class="topcoat-range" min="2" max="1024" value="128" step="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='left'>
+                            Subdivisions
+                        </td>
+                        <td class='center'>
+                            <input id='grid-subd-input' type="text" class="topcoat-text-input" placeholder="2" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 
+                            <input id= 'grid-subd-range' type="range" class="topcoat-range" min="1" max="64" value="4" step="1">
+                        </td>
+                        <td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="sub-section" id='colors'>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#0000FF;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#00FF00;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#FF0000;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#FFFF00;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#FF00FF;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#00FFFF;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#FF8800;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#666666;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#EEEEEE;"></span>
+                </button>
+                <button class="topcoat-icon-button--quiet">
+                    <span class="topcoat-icon" id="tiny-color-button" style="background-color:#000000;"></span>
+                </button>
+                <br>
+                <span>Custom Color </span>
+                <button id="custom_color" class="topcoat-icon-button--quiet">
+                    <span id="custom_color_icon" class="topcoat-icon" style="background-color:#AAFFAA;"></span>
+                </button>
+            </div>
+            
+            <div class="sub-section">
+                <table class='span-table' id='grid-settings'>
+                    <tr class="center">
+                        <td class="center">
+                            <div class="topcoat-button-bar" >
+                                <div class="topcoat-button-bar__item">
+                                    <button id="SOLID" class="topcoat-button-bar__button">Solid</button>
+                                </div>
+                                <div class="topcoat-button-bar__item">
+                                    <button id="DASHED" class="topcoat-button-bar__button">Dashed</button>
+                                </div>
+                                <div class="topcoat-button-bar__item">
+                                    <button id="DOTTED" class="topcoat-button-bar__button">Dotted</button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sub-section">
+                <label  class="topcoat-checkbox" id="long-label">
+                    <input id="pow" type="checkbox">
+                    <div class="topcoat-checkbox__checkmark"></div>
+                    Use X<span>2</span>grid spacing slider steps
+                </label>
+            </div>
+        </div>
+    </div>            
+    
+</body>
+    
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+    <script src="js/themeManager.js"></script>
+    <script src="js/grid.js"></script>
+</html>

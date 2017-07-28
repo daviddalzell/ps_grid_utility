@@ -1,0 +1,499 @@
+/*Your styles*/
+
+body {
+    margin: .2rem;
+}
+
+
+button{
+}
+
+.topcoat-button--large, .topcoat-button--large--cta{
+    width: 8rem;
+    margin-bottom: 10px;
+}
+
+hr{
+    background: none;
+    border: none; 
+    border-bottom: 2px solid grey;
+    height: 1px;
+    padding-bottom: 1px;
+    width: 95%
+}
+
+table {
+    width: 90%;
+    align-items: inherit;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    text-align: left;
+    border: none
+    margin: 1%;
+    align-items: center;
+}
+
+
+td, th {
+    padding 2%;
+}
+
+label{
+    margin: .2rem;
+    text-align: left;
+    font-size: .80rem;
+}
+
+
+.topcoat-select,
+.topcoat-button--large,
+.topcoat-button--large--cta{
+    margin-bottom: .18rem;
+    min-height: 2rem;
+    max-height: 2rem;
+}
+
+.topcoat-checkbox__checkmark:before{
+    width: 1rem;
+    height: 1rem;
+}
+
+.topcoat-checkbox__checkmark:after{
+    top: -1px;
+    width: 10px;
+    height: 4px;
+    border: 7px solid lightblue;
+    border-width: 3px;
+    border-top: none;
+    border-right: none;
+    border-radius: 1px;
+}
+
+.topcoat-checkbox {
+    min-height: 1rem;
+    min-width: 1rem;
+    margin-bottom: .18rem;
+}
+
+.fixed-width-checkbox {
+    width: 4.5rem;
+}
+
+#long-label {
+    margin: .2rem;
+    text-align: left;
+    font-size: 100%;
+    width: 10rem;
+}
+
+#long-label > span {
+    font-size: 75%;
+    position: relative; 
+    top: -0.5em; 
+    font-size: 90%;
+}
+
+/* removes HTML-style tab focus hilites which look odd in photoshop  */
+.topcoat-select:focus,
+.topcoat-button--large:focus,
+.topcoat-button:focus,
+.topcoat-button--cta:focus,
+.topcoat-button--large--cta:focus,
+.topcoat-icon-button--quiet:active,
+.topcoat-icon-button--quiet:focus:active,
+.topcoat-icon-buton:focus,
+input[type=checkbox]:focus+.topcoat-checkbox__checkmark:before{
+    box-shadow:inset 0 1px #737373;
+    border:1px solid #333434;
+}
+
+.uber_section {
+    width: 95%;
+    font-size: 150%;
+    margin-top:2%;
+    padding: 2%;
+}
+
+.section{
+    padding-top: 1rem;
+    font-size: 120%;
+    margin: auto;
+}
+
+.section-border {
+    align-content: center;
+    width: 95%;
+    margin:auto;
+    margin-top:2%;
+    padding: 2%;
+    border: .1rem solid gray;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+.sub-section{
+    width: 95%;
+    padding-top: .2rem;
+    margin:auto;
+}
+
+.sub-section-border {
+    align-content: center;
+    width: 85%;
+    margin:auto;
+    margin-top:2%;
+    padding: 2%;
+    border: .1rem solid gray;
+    border-radius: 5px;
+    
+}
+
+.boxed_group{
+    padding: .2rem;
+}
+
+.sub-section-hilite {
+    align-content: center;
+    width: 85%;
+    margin:auto;
+    padding: 2%;
+    border: .1rem solid white;
+    background-color: gray;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.button-label {
+    text-align: left;
+    display: inline-block;
+    width: 100px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+
+#btnClearSwatches, 
+#btnSaveSwatches, 
+#btnReplaceSwatches, 
+#btnLoadSwatches {
+    width: 8rem;
+    margin: 1px;
+}
+
+#icon-label {
+    padding-left: 3px;
+}
+
+#icon-color-button-wide {
+    width: 1rem;
+    height: 1rem;
+    padding-bottom: 1px;
+    outline: 1px solid #363636;
+    border: 1px solid grey;
+}
+
+#underlined {
+    background: npne;
+    border: none; 
+    border-bottom: 2px solid grey;
+}
+
+#grid-size-range, #grid-subd-range {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+#show_grid{
+    width: 120px;
+}
+
+/*lab to rgb styles */
+/////////////////////////////
+
+.inline_input_label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inline_group {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#option_box{
+    margin: auto;
+    padding: 2px;
+}
+
+#btn_add {
+    width: 25%;
+}
+
+#switch-group{
+    height: auto;
+    position: relative;
+}
+
+#switch_item {
+    vertical-align: middle;
+}
+
+#switch_label {
+    float: left;  
+    padding-top: 2.5%;
+}
+
+#lab_input,#grid-size-input, #grid-subd-input {
+    display: inline-block;
+    vertical-align: middle;
+    font-family:sans-serif;
+    text-align:right;
+    width: 4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#grid-size-input, #grid-subd-input {
+    width: 3.33rem;
+}
+
+#sub-section-results{
+    width: 90%;
+    align-content: center;
+    margin: auto;
+}
+
+#result {
+    vertical-align: middle;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 300;
+}
+
+#result > span {
+    padding-left: 1rem;
+    color: grey;
+}
+
+#swatch_name {
+    width: 65%;
+    margin-right: 20px;
+}
+
+.result_swatch{
+    vertical-align: middle;
+    display: inline-block;
+    width: 64px;
+    height: 32px;
+    border: 1px solid black;
+    outline: 1px solid grey;
+    background-color: #999999;
+    margin: 1px;
+}
+
+#result_number {
+    vertical-align: middle;
+    font-family:sans-serif;
+    font-size: 100%;
+    display: inline-block;
+    width: 128px;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 3px;  
+    padding: 5px;
+    background-color:
+}
+
+/////////////////////////////
+
+
+#full {
+    width: 100%;
+}
+
+#wide {
+    min-width: 200px
+}
+
+#text_box {
+    width: 90%;
+    margin: auto;
+    box-shadow: inset 5px 12px 40px -14px rgba(0,0,0,0.75);
+    background-color: darkgrey;
+    border: .1rem solid gray;
+    font-size: 120%;
+    color: #222222;
+    text-align: left;
+}
+
+
+.static_text_line {
+    width: 90%;
+    margin: auto;
+    background: none;
+    border: none; 
+    border-bottom: 1px solid grey;
+    text-align: left;
+    color: inherit;
+}
+
+#status {
+    font-size: 100%
+}
+
+#status > span {
+    color: grey;
+}
+
+#status > img{
+    height: 14px;
+    width: 14px;  
+}
+
+#active_doc {
+    width: 90%;
+    margin: auto;
+    padding-bottom: .2rem;
+    background: none;
+    border: none; 
+    border-bottom: 1px solid grey;
+    text-align: left;
+    align-content: center;
+    color: inherit;
+    position: relative;
+}
+
+#active_doc > span {
+    position: absolute;
+    bottom: 5px;
+}
+
+#main {
+    align-items: center;
+    font-family: "Corbel";
+    align-content: center;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    padding-bottom:30px;
+}
+
+#layer_error {
+    color: grey;
+}
+
+
+
+/*
+Those classes will be edited at runtime with values specified
+by the settings of the CC application
+*/
+.hostFontColor{}
+.hostFontFamily{}
+.hostFontSize{}
+
+/*font family, color and size*/
+.hostFont{}
+/*background color*/
+.hostBgd{}
+/*lighter background color*/
+.hostBgdLight{}
+/*darker background color*/
+.hostBgdDark{}
+/*background color and font*/
+.hostElt{}
+
+
+.hostButton{
+    border:1px solid;
+    border-radius:2px;
+    height:20px;
+    vertical-align:bottom;
+    font-family:inherit;
+    color:inherit;
+    font-size:inherit;
+}
+#xmp-data {
+    width: 90%;
+    font-size: 90%;
+    line-height: inherit;
+    font-family: "Lucida Console";
+    color: grey;
+    white-space: nowrap; 
+}
+
+.topcoat-textarea:focus {
+    background: #494b4b;
+    border: 1px solid #333434;
+    box-shadow: none;
+}
+
+.topcoat-button--large > img {
+    height: 14px;
+    padding-right: 5px;
+    padding-left: -5px;
+    margin-bottom: -3px;
+    
+}
+
+.small-break {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid dimgray;
+}
+
+#tiny-color-button,
+#custom_color_icon {
+    border: 1px solid grey;
+    outline: 1px solid #363636;
+}
+
+#display-file-data-checkbox{
+    align-self: left;
+    width: 90%;
+    margin-bottom: .18rem;
+}
+
+#file-format {
+    min-width: 5rem;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    height:30px;
+}
