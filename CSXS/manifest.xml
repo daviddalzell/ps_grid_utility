@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="5.0" ExtensionBundleId="com.treyarch.t8.utilities" ExtensionBundleVersion="1.0.0"
-		ExtensionBundleName="T8 Utilities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest Version="5.0" ExtensionBundleId="com.ps.utilities" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="PS Utilities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ExtensionList>
-        <Extension Id="com.treyarch.t8.grid" Version="1.0"></Extension>
+        <Extension Id="com.ps.grid" Version="1.0"></Extension>
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
@@ -35,10 +35,10 @@
 	</ExecutionEnvironment>
     
 	<DispatchInfoList>
-        <Extension Id="com.treyarch.t8.grid">
+        <Extension Id="com.ps.grid">
 			<DispatchInfo >
 				<Resources>
-				<MainPath>./t8_grid_util_panel.html</MainPath>
+				<MainPath>./ps_grid_util_panel.html</MainPath>
 				<ScriptPath>./jsx/grid_utils.jsx</ScriptPath>
 				</Resources>
 				<Lifecycle>
@@ -46,7 +46,7 @@
 				</Lifecycle>
 				<UI>
 					<Type>Panel</Type>
-					<Menu>TA Grid Tool</Menu>
+					<Menu>PS Grid Tool</Menu>
 					<Geometry>
 						<Size>
 							<Height>324</Height>

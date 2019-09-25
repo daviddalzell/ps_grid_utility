@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+;set debug registry for Photoshop CC 2019
+[HKEY_CURRENT_USER\Software\Adobe\CSXS.9]
+"PlayerDebugMode"="1"
+
+;Please note that, CSXS.9 is given with the assumption that, you are developing the extension for CEP 9. 
+;If you are developing extension for previous version of CEP, replace 9 with corresponding version number.
+;CC 2018 = CSXS.8
+;CC 2017 or CC 2015.5 = CSXS.7
+;CC 2015 = CSXS.6
